@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import bcrpt from "bcrypt";
 
-userSchema = mongoose.Schema({
+const userSchema = mongoose.Schema({
     username: {
         type: String,
         required: true,
