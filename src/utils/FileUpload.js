@@ -10,7 +10,7 @@ cloudinary.config({
 
 
 const uploadOnCloudinary = async (localfilePath)=>{
-
+ console.log(localfilePath)
     try{
         const uploadResult = await cloudinary.uploader
        .upload(
